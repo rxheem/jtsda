@@ -1,15 +1,11 @@
 import React, { Component } from "react"
-import {Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
-import logo from "./logo.svg"
+import {Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import "./App.css"
 
 import Home from './components/home/Home'
 
 // Importing the views here
 import Header from './views/header/Header'
-
-// Importing the components here
-import MainNavigation from './components/mainNavigation/MainNavigation'
 
 class App extends Component {
 
@@ -26,7 +22,7 @@ class App extends Component {
           <div>
 
             {/* Importing the header here */}
-            <Header ref='header'/>
+            <Header />
 
             <Switch>
               <Route exact path='/' component={Home} />

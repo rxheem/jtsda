@@ -1,5 +1,6 @@
 'use strict'
-console.clear()
+
+console.log('The official website of the Johnson Town SDA Church. All rights reserved.')
 
 /* Requesting permission from the user to allow notifications early on
 ** We may eventually start offering a notification service where we alerts
@@ -8,10 +9,4 @@ console.clear()
 if (Notification.permission !== "granted")
   Notification.requestPermission()
 
-// using es modules
-import device from 'current-device'
-
-// common.js
-const device = require('current-device').default
-
-console.log('Testing')
+console.log('device.mobile() === %s', device.mobile())
