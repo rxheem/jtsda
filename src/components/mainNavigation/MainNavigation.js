@@ -8,11 +8,11 @@ class MainNavigation extends Component {
   render() {
 
     return (
-      <Navbar id='main-navigation' sticky='top' expand='lg' fixed='top'>
+      <Navbar sticky='top' expand='lg' fixed='top'>
         <Navbar.Brand href='/'>Johnson Town SDA Church</Navbar.Brand>
         <Navbar.Toggle aria-controls='main-navbar-nav' />
         <Navbar.Collapse id='main-navbar-nav'>
-          <Nav className='mr-auto navbar-nav'>
+          <Nav id='main-navigation' className='ml-auto navbar-nav'>
 
             {/* Direct link to the YouTube page */}
             <Nav.Link href='https://www.youtube.com/channel/UCN4mZ6rsv_KzUCRj4xbag_g' data-toggle='tooltip'

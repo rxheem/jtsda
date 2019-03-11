@@ -4,8 +4,12 @@
   color: red;
 }
 
+#main-navigation {
+  margin: right;
+}
+
 @media only screen and (max-width: 600px) {
-  .main-navigation {
+  #main-navigation {
     text-align: center;
   }
 }
