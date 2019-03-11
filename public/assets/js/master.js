@@ -1,7 +1,6 @@
 'use strict'
-import swal from 'sweetalert'
 
-
+// Shows a small log in the console
 console.log('The official website of the Johnson Town SDA Church. All rights reserved.')
 
 /* Requesting permission from the user to allow notifications early on
@@ -10,5 +9,3 @@ console.log('The official website of the Johnson Town SDA Church. All rights res
 */
 if (Notification.permission !== "granted")
   Notification.requestPermission()
-
-swal("Here's the title!", "...and here's the text!");

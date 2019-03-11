@@ -47,6 +47,20 @@ class MainNavigation extends Component {
             {/* Photo Gallery ..  */}
             <Nav.Link href='/photoGallery'>Photo Gallery</Nav.Link>
 
+            {/* Feed - For instagram and Facebook */}
+            <NavDropdown title='Feed'>
+
+              {/* instagram */}
+              <NavDropdown.Item href='/instagramFeed'>
+                Instagram
+              </NavDropdown.Item>
+
+              {/* Facebook */}
+              <NavDropdown.Item href='/facebookFeed'>
+                Facebook
+              </NavDropdown.Item>
+            </NavDropdown>
+
             <Nav.Link href='/news'>News</Nav.Link>
             <Nav.Link href='/downloads'>Downloads</Nav.Link>
             <Nav.Link href='/contact'>Contact</Nav.Link>
