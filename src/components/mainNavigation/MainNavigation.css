@@ -1,0 +1,14 @@
+.main-navigation {
+
+}
+
+.fa-youtube-play {
+  font-size: 25px;
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-navigation {
+    text-align: center;
+  }
+}
