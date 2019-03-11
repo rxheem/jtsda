@@ -17,7 +17,6 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-
         <Router>
           <div>
 
@@ -32,7 +31,6 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
-
       </React.Fragment>
     );
   }
