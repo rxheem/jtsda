@@ -27,7 +27,6 @@ class App extends Component {
 
             {/* Importing the header here */}
             <Header ref='header'/>
-            <MainNavigation />  {/* Navigation goes here */}
 
             <Switch>
               <Route exact path='/' component={Home} />

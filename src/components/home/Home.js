@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import { Tabs, Tab} from 'react-bootstrap'
 
+// Importing all the Home Components here
+import HomeCarousel from './components/homeCarousel/HomeCarousel'
+
 class Home extends Component {
   render () {
     return (
-      <div>
+      <React.Fragment>
+        <HomeCarousel />
 
-      </div>
+      </React.Fragment>
     )
   }
 }
