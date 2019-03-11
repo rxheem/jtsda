@@ -1,4 +1,6 @@
 'use strict'
+import swal from 'sweetalert'
+
 
 console.log('The official website of the Johnson Town SDA Church. All rights reserved.')
 
@@ -9,4 +11,4 @@ console.log('The official website of the Johnson Town SDA Church. All rights res
 if (Notification.permission !== "granted")
   Notification.requestPermission()
 
-console.log('device.mobile() === %s', device.mobile())
+swal("Here's the title!", "...and here's the text!");
