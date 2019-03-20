@@ -47,20 +47,6 @@
   </head>
   <body>
     
-<video id="player" controls autoplay></video>
-<script>
-  const player = document.getElementById('player');
-
-  const constraints = {
-    video: true,
-  };
-
-  navigator.mediaDevices.getUserMedia(constraints)
-    .then((stream) => {
-      player.srcObject = stream;
-    });
-</script>
-
     <header>
       <!-- This section displays links to the Youtube, Instagram and Facebook page -->
       <section id="social-media-section">
