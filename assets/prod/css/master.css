@@ -1,3 +1,7 @@
+body {
+  font-size: 13px;
+}
+
 .nav-icon {
   height: 20px;
 }
@@ -5,10 +9,12 @@
 #social-media-section {
   text-align: right;
   padding: 10px 20px 0px 15px;
+  font-size: 13px;
 }
 
 .church-address{
   color: black !important;
+  padding-bottom: -5px !important;
 }
 
 .address-link {
@@ -21,13 +27,13 @@
 }
 
 .social-media-icon {
-  height: 25px !important;
-  width: 25px;
+  height: 20px !important;
+  width: 20px;
   margin: 0px 10px 10px 0px;
 }
 
 #yt-icon {
-  width: 30px !important
+  width: 25px !important
 }
 
 /*.reverse {
