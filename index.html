@@ -47,17 +47,18 @@
   </head>
   <body>
     
-    <input type="file" accept="audio/*" capture id="recorder">
-<audio id="player" controls></audio>
+<video id="player" controls autoplay></video>
 <script>
-  var recorder = document.getElementById('recorder');
-  var player = document.getElementById('player');
+  const player = document.getElementById('player');
 
-  recorder.addEventListener('change', function(e) {
-    var file = e.target.files[0];
-    // Do something with the audio file.
-    player.srcObject = file;
-  });
+  const constraints = {
+    video: true,
+  };
+
+  navigator.mediaDevices.getUserMedia(constraints)
+    .then((stream) => {
+      player.srcObject = stream;
+    });
 </script>
 
     <header>
