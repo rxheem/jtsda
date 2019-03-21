@@ -37,6 +37,10 @@
   padding-top: 10px;
 }
 
+.card {
+ max-height: 40rem !important; 
+}
+
 .copyright {
  text-align: center:
 }
