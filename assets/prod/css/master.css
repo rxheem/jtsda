@@ -1,9 +1,4 @@
 
-
-body {
-  font-size: 13px;
-}
-
 .nav-icon {
   height: 20px;
 }
@@ -11,7 +6,6 @@ body {
 #social-media-section {
   text-align: right;
   padding: 10px 20px 0px 15px;
-  font-size: 13px;
   background-color: #F1FBFF;
 }
 
