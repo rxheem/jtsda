@@ -46,9 +46,9 @@ main {
 }
 
 .card {
- -webkit-box-shadow: 0 8px 6px -6px black !important;
-	   -moz-box-shadow: 0 8px 6px -6px black !important;
-	        box-shadow: 0 8px 6px -6px black !important; 
+  -moz-box-shadow:    3px 3px 5px 6px #ccc !important;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc !important;
+  box-shadow:         3px 3px 5px 6px #ccc !important;
 }
 
 @media only screen and (max-width: 600px) {
