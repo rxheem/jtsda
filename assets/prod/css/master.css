@@ -44,3 +44,9 @@ main {
 .copyright {
  text-align: center:
 }
+
+@media only screen and (max-width: 600px) {
+  card-title {
+    text-align: center !important;
+  }
+}
